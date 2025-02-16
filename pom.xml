@@ -29,7 +29,7 @@
         <changelist>-SNAPSHOT</changelist>
         <java.version>21</java.version>
         <kotlin.version>2.1.10</kotlin.version>
-        <kafka-avro-serializer.version>7.8.0</kafka-avro-serializer.version>
+        <kafka-avro-serializer.version>7.8.1</kafka-avro-serializer.version>
         <avro.version>1.12.0</avro.version>
         <graphql-kotlin-spring-client.version>8.3.0</graphql-kotlin-spring-client.version>
         <graphql-kotlin-maven-plugin.version>8.3.0</graphql-kotlin-maven-plugin.version>
@@ -159,7 +159,7 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-database-postgresql</artifactId>
-            <version>11.3.1</version>
+            <version>11.3.2</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
