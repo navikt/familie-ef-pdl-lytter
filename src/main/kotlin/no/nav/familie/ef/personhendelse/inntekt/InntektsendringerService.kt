@@ -45,7 +45,7 @@ class InntektsendringerService(
 
     fun beregnInntektsendringerOgLagreIDb() {
         logger.info("Starter beregning av inntektsendringer")
-        val personerMedAktivStønad = sakClient.hentPersonerMedAktivStønadIkkeManueltRevurdertSisteMåneder(0)
+        val personerMedAktivStønad = listOf("15519915534")
         secureLogger.info("Personer med aktiv stønad: ${personerMedAktivStønad.joinToString(", ")}")
         inntektsendringerRepository.clearInntektsendringer()
         logger.info("Antall personer med aktiv stønad: ${personerMedAktivStønad.size}")
